@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    style="@style/Base.AlertDialog.AppCompat"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="[Name]"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:id="@+id/communities_list_item_dialog_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/communities_list_item_dialog_name"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
+        android:text="[College]"
+        android:id="@+id/communities_list_item_dialog_college" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/communities_list_item_dialog_college"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
+        android:id="@+id/communities_list_item_dialog_branch" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/communities_list_item_dialog_branch"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
+        android:text="[GS]"
+        android:id="@+id/communities_list_item_dialog_gs" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/communities_list_item_dialog_gs"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
+        android:text="[Mobile]"
+        android:autoLink="all"
+        android:id="@+id/communities_list_item_dialog_mobile" />
+
+</RelativeLayout>

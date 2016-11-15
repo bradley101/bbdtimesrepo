@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    <TextView android:id="@+id/important_news_list_view_item_text_view"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:autoLink="all"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+
+    <View android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/com_facebook_messenger_blue"
+        android:layout_below="@id/important_news_list_view_item_text_view"
+        />
+</RelativeLayout>

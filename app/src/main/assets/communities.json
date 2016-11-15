@@ -1,0 +1,193 @@
+{
+	"communities":[
+		{
+			"name":"Aaina",
+			"college":"BBDU",
+			"branch":"all",
+			"gs":"Yash Srivastav",
+			"mob":"+917860410642"
+		},
+		{
+			"name":"Abhinay",
+			"college":"BBDNITM",
+			"branch":"all",
+			"gs":"Nimesh Bhandari",
+			"mob":"+919005318420"
+		},
+		{
+			"name":"Abhyuday",
+			"college":"BBDNIIT",
+			"branch":"all",
+			"gs":"Shreshth Mishra",
+			"mob":"+919044229697"
+		},
+		{
+			"name":"Aionios",
+			"college":"BBDU",
+			"branch":"Mechanical Engineering",
+			"gs":"Amit Jaiswal",
+			"mob":"+918896684892"
+		},
+		{
+			"name":"Buniyaad",
+			"college":"BBDNIIT",
+			"branch":"Civil Engineering",
+			"gs":"Abhishek Gupta",
+			"mob":"+917071235000"
+		},
+		{
+			"name":"Civitec",
+			"college":"BBDNITM",
+			"branch":"Civil Engineering",
+			"gs":"Avinash Kumar Singh",
+			"mob":"+918182025066"
+		},
+		{
+			"name":"Computer Forum",
+			"college":"BBDNITM",
+			"branch":"CSE & IT",
+			"gs":"Rohit Jaiswal",
+			"mob":"+919794008831"
+		},
+		{
+			"name":"Empezar",
+			"college":"BBD Group",
+			"branch":"all",
+			"gs":"Tejas Gupta & Ankita Bajpai",
+			"mob":"+918182836219 & +918604766956"
+		},
+		{
+			"name":"Falak",
+			"college":"Dental College",
+			"branch":"BDS",
+			"gs":"To be declared later",
+			"mob":"To be declared later"
+		},
+		{
+			"name":"Force",
+			"college":"BBDNITM",
+			"branch":"Electronics & Communication Engineering",
+			"gs":"Vivek Kumar Gupta",
+			"mob":"+919807409583"
+		},
+		{
+			"name":"Karmavesh",
+			"college":"BBDNITM",
+			"branch":"all",
+			"gs":"Aditya Tiwari",
+			"mob":"+917388539237"
+		},
+		{
+			"name":"Mechfire",
+			"college":"BBDNITM",
+			"branch":"all",
+			"gs":"Nishi Kashyap",
+			"mob":"+918115310031"
+		},
+		{
+			"name":"Ojasvya",
+			"college":"BBDNIIT",
+			"branch":"all",
+			"gs":"Mayank Tiwari",
+			"mob":"+919410492634"
+		},
+		{
+			"name":"Phazors",
+			"college":"BBDNIIT",
+			"branch":"Electrical & Electronics Engineering",
+			"gs":"Nitish Kr. Pandey",
+			"mob":"+919169447760"
+		},
+		{
+			"name":"Robosrijan",
+			"college":"BBD Group",
+			"branch":"all",
+			"gs":"Akash Purohit",
+			"mob":"+918808920037"
+		},
+		{
+			"name":"Samanvay",
+			"college":"BBDNIIT",
+			"branch":"Information Technology",
+			"gs":"Priya Tiwari",
+			"mob":"+918765925350"
+		},
+		{
+			"name":"Sankalp",
+			"college":"BBDEC",
+			"branch":"all",
+			"gs":"Supreet Srivastava",
+			"mob":"+919917317153"
+		},
+		{
+			"name":"Savitur",
+			"college":"BBDNIIT",
+			"branch":"all",
+			"gs":"Electronics & Communication Engineering",
+			"mob":"+918765223318"
+		},
+		{
+			"name":"Silver Steppars",
+			"college":"BBDNITM",
+			"branch":"all",
+			"gs":"Sharad Kumar",
+			"mob":"+917783980468"
+		},
+		{
+			"name":"Sparx",
+			"college":"BBDNITM",
+			"branch":"Electrical & Electronics Engineering",
+			"gs":"Tejaswini Verma",
+			"mob":"+917754051026"
+		},
+		{
+			"name":"Sports",
+			"college":"BBD Group",
+			"branch":"all",
+			"gs":"Bipin Yadav",
+			"mob":"+917080949415"
+		},
+		{
+			"name":"Stambh",
+			"college":"BBDU",
+			"branch":"School of Architecture",
+			"gs":"Krishna Sharma",
+			"mob":"+919045483858"
+		},
+		{
+			"name":"Technovibes",
+			"college":"BBDNITM",
+			"branch":"all",
+			"gs":"Shubhra Banerjee",
+			"mob":"+918765773511"
+		},
+		{
+			"name":"Udghosh & AKS",
+			"college":"SOM ( PG & UG ), BBDU",
+			"branch":"SOM",
+			"gs":"To be declared later",
+			"mob":"To be declared later"
+		},
+		{
+			"name":"Vyomotkarsh",
+			"college":"BBDNITM",
+			"branch":"Aeronautical Engineering",
+			"gs":"Krishna Kumar Singh Gautam",
+			"mob":"+918960498169"
+		},
+		{
+			"name":"Wingtech",
+			"college":"BBDU",
+			"branch":"Computer Science & Engineering",
+			"gs":"Shubham Chaubey",
+			"mob":"+917839317297"
+		},
+		{
+			"name":"The BBD Times",
+			"college":"BBD Group",
+			"branch":"all",
+			"gs":"Yash Srivastava",
+			"mob":"+918090497228"
+		}
+	]
+}

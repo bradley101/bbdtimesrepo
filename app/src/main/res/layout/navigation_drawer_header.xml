@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/website_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="thebbdtimes.com"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:layout_below="@id/app_name"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/greeting_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello User!"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:layout_below="@id/website_name"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:visibility="visible"/>
+
+</RelativeLayout>

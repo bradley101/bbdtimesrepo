@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <TextView android:id="@+id/communities_list_item_alphabet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alphabet_bg"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:text="A"/>
+
+    <RelativeLayout android:layout_toRightOf="@+id/communities_list_item_alphabet"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/communities_list_item_name"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/communities_list_item_name"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/communities_list_item_college"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView android:id="@+id/important_news_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Important News"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/important_news_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/important_news_header">
+
+        <ListView android:id="@+id/important_news_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

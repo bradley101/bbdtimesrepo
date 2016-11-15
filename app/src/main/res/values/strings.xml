@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">The BBD Times</string>
+    <string name="drawer_open">Menu</string>
+    <string name="drawer_close">The BBD Times</string>
+    <string name="fb_app_id">241149259590566</string>
+    <string name="tbt_web_view">The BBD Times Web</string>
+    <string name="bbd_radio_label">BBD 90.8 FM</string>
+    <string name="sponsor_matter">Babu Banarasi Das University with a motto of Shaping Generations is committed to human development at all levels through quality education. With the efforts of Dr Akhilesh Das Gupta, Honble Chairman, BBD Group, the University has launched its own community radio – BBD FM at 90.8 MHz to educate, sensitize and share knowledge with students and community. BBD FM at 90.8 MHz through its programs exclusively designed seeks to reach out to the masses of Lucknow and adjoining localities on issues concerning health, education, environment, community development, scientific awareness, cultural and social welfare, civic and social issues etc. The radio station has its own broadcasting, production and recording facilities as well as transmission. More information at http://bbdu.ac.in/about/bbdradio/ </string>
+</resources>

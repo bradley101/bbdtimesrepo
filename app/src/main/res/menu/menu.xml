@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item app:showAsAction="always"
+        android:title="Important News"
+        android:icon="@drawable/ic_notification"
+        android:id="@+id/important_news_icon" />
+
+    <item app:showAsAction="always"
+        android:title="Refresh App Content"
+        android:icon="@drawable/ic_refresh"
+        android:id="@+id/refresh_icon" />
+
+</menu>

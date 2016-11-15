@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionName="1.2"
+    android:versionCode="3"
+    package="com.tbt">
+
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TBTWebView"
+            android:label="@string/tbt_web_view"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.tbt.classes.WEBVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RadioActivity"
+            android:label="@string/bbd_radio_label"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.tbt.classes.RADIOACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".EventActivity"
+            android:label="Event"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.tbt.classes.EVENTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ImportantNewsActivity"
+            android:label="Important News"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.tbt.classes.IMPNEWSACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/fb_app_id" />
+
+        <receiver android:name=".PullNetworkAlarm" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".PullNetworkForNewData"/>
+    </application>
+
+</manifest>
